@@ -4,15 +4,15 @@
   }
 
 
-/********** Large devices only **********/
+/********** desktop devices only **********/
 @media (min-width: 992px) {
 }
 
-/********** Medium devices only **********/
+/********** tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 }
 
-/********** Medium devices only **********/
+/********** mobile devices only **********/
 @media (max-width: 767px) {
 
 }
