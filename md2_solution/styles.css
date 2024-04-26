@@ -3,16 +3,91 @@
     box-sizing: border-box;
   }
 
+  body{
+    margin: 30px;
+  }
 
+  h1{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .content{
+    background-color: rgb(235, 210, 173);
+    border: 2px solid black;
+    margin: 15px;
+    overflow: auto;
+  }
+
+  .content h2 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0%;
+    width:fit-content;
+    float: right;
+  }
+
+  .content p {
+    margin-top: 50px;
+  }
+
+  #chicken_div h2{
+    background-color: rgb(232, 240, 121);
+  }
+
+  #beef_div h2{
+    background-color: rgb(233, 167, 80);
+  }
+
+  #sushi_div h2{
+    background-color: rgb(180, 238, 125);
+  }
+
+  .menu {
+    width: 100%;
+  }
 /********** desktop devices only **********/
 @media (min-width: 992px) {
+  .content {
+    float: left;
+    width: 33.33%;
+  }
 }
 
 /********** tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #chicken_div.content{
+    float: left;
+    width: 50%;
+  }
+
+  #beef_div.content{
+    float: left;
+    width: 50%;
+  }
+
+  #sushi_div.content{
+    float: left;
+    width: 100%;
+  }
 }
 
 /********** mobile devices only **********/
 @media (max-width: 767px) {
+  #chicken_div.content{
+    float: left;
+    width: 100%;
+  }
 
+  #beef_div.content{
+    float: left;
+    width: 100%;
+  }
+  
+  #sushi_div.content{
+    float: left;
+    width: 100%;
+  }
 }
