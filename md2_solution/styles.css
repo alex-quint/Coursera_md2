@@ -80,18 +80,25 @@
     width: 50%;
   }
 
-  #sushi_div.content{
+  #sushi_div{
     width: 100%;
     display: flex;
     clear: both;
+    float: felx;
+    padding-top: 40px;
   }
 
   #sushi_div p{
-    margin-top: 20px;
+    width:fit-content;
+    margin-right: 21px;
+    margin-left: 22px ;
+    margin-bottom: 40px;
   }
 
   #sushi_div h2{
-    top: 16%;
+    position:absolute;
+    right: 22px;
+    top: 40px;
   }
 }
 
